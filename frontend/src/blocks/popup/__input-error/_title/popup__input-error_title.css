@@ -1,0 +1,10 @@
+.popup__input-error_title {
+    top: 148.33px;
+}
+
+
+@media all and (max-width: 767px) {
+    .popup__input-error_title {
+        top: 158.8px;
+    }
+}

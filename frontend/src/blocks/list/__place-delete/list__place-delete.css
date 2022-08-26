@@ -1,0 +1,22 @@
+.list__place-delete {
+    background-image: url(../../../images/delete.svg);
+    width: 18px;
+    height: 19px;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    background-position: center;
+    align-self: center;
+    background-color: transparent;
+    cursor: pointer;
+    border-color: transparent;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+
+    visibility: visible;
+}
+
+.list__place-delete:hover {
+    opacity: 0.5;
+}

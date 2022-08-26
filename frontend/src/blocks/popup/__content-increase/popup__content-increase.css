@@ -1,0 +1,5 @@
+.popup__content-increase {
+    position: relative;
+    max-width: 75vw;
+    height: 75vh;
+}

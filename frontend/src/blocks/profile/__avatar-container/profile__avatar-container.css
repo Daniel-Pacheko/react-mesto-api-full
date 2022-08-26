@@ -1,0 +1,17 @@
+.profile__avatar-container {
+    display: flex;
+    margin-top: 40px;
+    position: relative;
+}
+
+@media screen and (max-width: 767px) {
+    .profile__avatar-container {
+        flex-direction: column;
+        margin: 38px auto 0;
+    }
+}
+
+.profile__avatar-container:hover {
+    opacity: 0.2;
+    transition: .2s linear;
+}
