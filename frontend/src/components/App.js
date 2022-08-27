@@ -48,16 +48,18 @@ function App() {
 
 
   React.useEffect(() => {
+    if (!isLoggedIn) {
+      return
+    }
     handleTokenCheck();
     Promise.all([api.getUserData(), api.getCards()])
       .then((res) => {
-        console.log(res);
         const [user, cards] = res;
         setCurrentUser(user);
         setCards(cards);
       })
       .catch(err => console.log(err));
-  }, []);
+  }, [isLoggedIn]);
 
 
 
